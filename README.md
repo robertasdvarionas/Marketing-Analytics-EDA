@@ -26,7 +26,8 @@ Firstly, I created a new database titled *'marketing'* and imported the raw csv 
 
 The raw dataset looks like this.
 
-![alt text]()
+![alt text](https://raw.githubusercontent.com/robertasdvarionas/Marketing-Analytics-EDA/refs/heads/main/Related%20Images/Raw_dataset_marketing.png)
+![alt text](https://raw.githubusercontent.com/robertasdvarionas/Marketing-Analytics-EDA/refs/heads/main/Related%20Images/Raw_dataset_marketing_2.png)
 
 As a safety measure, I duplicated the table *'marketing_original'* and called it *'marketing_stats'* to keep the original raw dataset in case I need to access it later on.
 
