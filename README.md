@@ -52,6 +52,23 @@ UPDATE marketing_stats
 SET Total_Children = Kidhome + Teenhome;
 ```
 
+Furthermore, I noticed that the marital status columns and education columns were having a similar issue. They were all differentiated into separate columns, each column having a binary value of 1 or 0.
+
+Having just one column of **'Marital_Status'** and **'Education'** would be more convenient. Therefore, I:
+
+1. Created these two new columns.
+
+```sql
+ALTER TABLE marketing_stats
+ADD Education varchar(50);
+
+ALTER TABLE marketing_stats
+ADD Marital_Status varchar(50);
+```
+
+2. Replaced the '1' values to their appropriate entry.
+
+
 ```sql
 UPDATE marketing_stats
 SET marital_Divorced = CASE
@@ -115,4 +132,14 @@ SET education_PhD = CASE
 							WHEN education_PhD = 1 THEN 'PhD'
 							ELSE NULL
 							END;
+```
+
+3. Coalesced the columns into one.
+
+```sql
+UPDATE marketing_stats
+SET Education = COALESCE(education_2n_Cycle,education_basic,education_Graduation,education_Master,education_PhD);
+
+UPDATE marketing_stats
+SET Marital_Status = COALESCE(marital_Divorced,marital_Married,marital_Single,marital_Together,marital_Widow);
 ```
