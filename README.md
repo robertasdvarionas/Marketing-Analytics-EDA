@@ -66,7 +66,7 @@ ALTER TABLE marketing_stats
 ADD Marital_Status varchar(50);
 ```
 
-2. Replaced the '1' values to their appropriate entry.
+2. Replaced the '1' values to their appropriate entry and '0' values to NULL.
 
 
 ```sql
@@ -142,4 +142,34 @@ SET Education = COALESCE(education_2n_Cycle,education_basic,education_Graduation
 
 UPDATE marketing_stats
 SET Marital_Status = COALESCE(marital_Divorced,marital_Married,marital_Single,marital_Together,marital_Widow);
+```
+
+The resulting columns looked like this.
+
+![alt text]()
+
+Continuing on, I wanted to have a column **'Total_Spent_Amount'** showing the amount spent on all of the products combined per customer. Hence, I created the new column and added the relevant columns to retrieve the total amount.
+
+```sql
+ALTER TABLE marketing_stats ADD Total_Spent_Amount INT;
+```
+
+```sql
+UPDATE marketing_stats
+SET Total_Spent_Amount = MntWines + MntFruits + MntMeatProducts + MntFishProducts + MntSweetProducts + MntGoldProds;
+```
+
+Then I checked through all of the columns again and noticed that quite a few columns are either completely unusable, are showing incorrect entries or are simply redundant.
+
+* It is unclear what do columns **'Z_CostContact'** and **'Z_Revenue'** represent.
+* Columns **'MntTotal'**, **'MntRegularProds'** and **'AcceptedCmpOverall'** are weirdly showing incorrect sum amounts for total products and accepted campaigns.
+
+Majority of those columns will not be used in general, therefore, I chose to remove them from the dataset.
+
+```sql
+ALTER TABLE marketing_stats DROP COLUMN Z_CostContact;
+ALTER TABLE marketing_stats DROP COLUMN Z_Revenue;
+ALTER TABLE marketing_stats DROP COLUMN MntTotal;
+ALTER TABLE marketing_stats DROP COLUMN MntRegularProds;
+ALTER TABLE marketing_stats DROP COLUMN AcceptedCmpOverall;
 ```
