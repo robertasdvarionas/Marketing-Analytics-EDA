@@ -244,6 +244,13 @@ Latest campaign seems to be the most successful while Campaign 2 seems to be com
 
 * Relationship between Amount Spent on Various Products and Income
 
+From the Relationship between Total Amount Spent and Income we can see that generally customers with higher incomes will spend more money when purchasing.
+
+The Relationship between Amount Spent on Gold and Income is a little more varied. The distribution is a little more square in shape meaning that both lower income and higher income are willing to spend money on gold products. There are also a couple of outlier customers who have a very low income but spent the most.
+
+The rest of the relationships are following a similar progressive trend of spending more money the higher the income is with wine being the product most exclusive to higher earners it seems.
+
+A big outlier is one person spending a disproportionately big amount of money on meat while having almost no income.
 
 ![alt text](https://raw.githubusercontent.com/robertasdvarionas/Marketing-Analytics-EDA/refs/heads/main/Related%20Images/TOTAL%20VS%20INCOME.png)
 ![alt text](https://raw.githubusercontent.com/robertasdvarionas/Marketing-Analytics-EDA/refs/heads/main/Related%20Images/Combined_Charts.jpg)
