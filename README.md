@@ -173,3 +173,12 @@ ALTER TABLE marketing_stats DROP COLUMN MntTotal;
 ALTER TABLE marketing_stats DROP COLUMN MntRegularProds;
 ALTER TABLE marketing_stats DROP COLUMN AcceptedCmpOverall;
 ```
+
+# DATA VISUALIZATION AND INSIGHTS
+
+I imported the data into **Power BI** via SQL Server method and started building a dashboard highlighting the most important trends and insights.
+
+I decided to split up the dashboard into two tabs - one focusing on the *customer insights* and the other one focusing on the *purchasing insights*.
+
+1. Customer insights
+
