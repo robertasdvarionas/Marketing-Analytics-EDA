@@ -182,8 +182,68 @@ I decided to split up the dashboard into two tabs - one focusing on the *custome
 
 1. CUSTOMER INSIGHTS
 
+
 * Distribution of Income
 
 The income is distributed pretty evenly with small spikes around 30,000 and 60,000 yearly.
 
 ![alt text](https://raw.githubusercontent.com/robertasdvarionas/Marketing-Analytics-EDA/refs/heads/main/Related%20Images/DISTRIBUTION%20OF%20INCOME.png)
+
+
+* Distribution of Customer Age
+
+The majority of the customers seem to fall somewhere between 40 and 65 years old with a noticeable spike between 42 and 50 years old.
+
+![alt text](https://raw.githubusercontent.com/robertasdvarionas/Marketing-Analytics-EDA/refs/heads/main/Related%20Images/DISTRIBUTION%20OF%20CUSTOMER%20AGE.png)
+
+
+* Proportion of Customers with Children
+
+The chart shows us that exactly half of our customers have 1 child while around a quarter of the customers do not have any children. Having 2 or 3 children is rarer.
+
+![alt text](https://raw.githubusercontent.com/robertasdvarionas/Marketing-Analytics-EDA/refs/heads/main/Related%20Images/PROPORTION%20OF%20CUSTOMERS%20WITH%20CHILDREN.png)
+
+
+* Income Distribution by Marital Status
+
+It seems that there is no correlation between customers' marital status and their income (there is a slight spike in income in widowed customers but too small to be significant).
+
+![alt text](https://raw.githubusercontent.com/robertasdvarionas/Marketing-Analytics-EDA/refs/heads/main/Related%20Images/INCOME%20DISTRIBUTION%20BY%20MARITAL%20STATUS.png)
+
+
+* Distribution of Customer Education
+
+Vast majority of the customers posses a Graduate education level with Phd and Master's degrees coming in way behind. Only a tiny portion of the customer base has a Basic education level.
+
+![alt text](https://raw.githubusercontent.com/robertasdvarionas/Marketing-Analytics-EDA/refs/heads/main/Related%20Images/DISTRIBUTION%20OF%20CUSTOMER%20EDUCATION.png)
+
+
+2. PURCHASING INSIGHTS
+
+
+* Purchasing Type Distribution
+
+On average the most popular way of shopping for customers is at the physical store with web purchases coming in second. Other channels are not performing quite as well.
+
+![alt text](https://raw.githubusercontent.com/robertasdvarionas/Marketing-Analytics-EDA/refs/heads/main/Related%20Images/PURCHASING%20TYPE%20DISTRIBUTION.png)
+
+
+* Distribution of Total Amount Spent
+
+Vast majority of the customers spend less than 200 when purchasing.
+
+![alt text](https://raw.githubusercontent.com/robertasdvarionas/Marketing-Analytics-EDA/refs/heads/main/Related%20Images/DISTRIBUTION%20OF%20TOTAL%20AMOUNT%20SPENT.png)
+
+
+* Marketing Campaign Acceptance
+
+Latest campaign seems to be the most successful while Campaign 2 seems to be completely underperforming.
+
+![alt text](https://raw.githubusercontent.com/robertasdvarionas/Marketing-Analytics-EDA/refs/heads/main/Related%20Images/MARKETING%20CAMPAIGN%20ACCEPTANCE.png)
+
+
+* Relationship between Amount Spent on Various Products and Income
+
+
+![alt text](https://raw.githubusercontent.com/robertasdvarionas/Marketing-Analytics-EDA/refs/heads/main/Related%20Images/TOTAL%20VS%20INCOME.png)
+![alt text](https://raw.githubusercontent.com/robertasdvarionas/Marketing-Analytics-EDA/refs/heads/main/Related%20Images/Combined_Charts.jpg)
