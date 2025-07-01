@@ -180,69 +180,80 @@ I imported the data into **Power BI** via SQL Server method and started building
 
 I decided to split up the dashboard into two tabs - one focusing on the *customer insights* and the other one focusing on the *purchasing insights*.
 
-1. CUSTOMER INSIGHTS
+**1. CUSTOMER INSIGHTS**
 
 
-* Distribution of Income
-
-The income is distributed pretty evenly with small spikes around 30,000 and 60,000 yearly.
+* **Distribution of Income**
 
 ![alt text](https://raw.githubusercontent.com/robertasdvarionas/Marketing-Analytics-EDA/refs/heads/main/Related%20Images/DISTRIBUTION%20OF%20INCOME.png)
 
+The income is distributed pretty evenly with small spikes around 30,000 and 60,000 yearly.
 
-* Distribution of Customer Age
 
-The majority of the customers seem to fall somewhere between 40 and 65 years old with a noticeable spike between 42 and 50 years old.
+
+* **Distribution of Customer Age**
 
 ![alt text](https://raw.githubusercontent.com/robertasdvarionas/Marketing-Analytics-EDA/refs/heads/main/Related%20Images/DISTRIBUTION%20OF%20CUSTOMER%20AGE.png)
 
+The majority of the customers seem to fall somewhere between 40 and 65 years old with a noticeable spike between 42 and 50 years old.
 
-* Proportion of Customers with Children
 
-The chart shows us that exactly half of our customers have 1 child while around a quarter of the customers do not have any children. Having 2 or 3 children is rarer.
+
+* **Proportion of Customers with Children**
 
 ![alt text](https://raw.githubusercontent.com/robertasdvarionas/Marketing-Analytics-EDA/refs/heads/main/Related%20Images/PROPORTION%20OF%20CUSTOMERS%20WITH%20CHILDREN.png)
 
+The chart shows us that exactly half of our customers have 1 child while around a quarter of the customers do not have any children. Having 2 or 3 children is rarer.
 
-* Income Distribution by Marital Status
+
+
+* **Income Distribution by Marital Status**
+
+![alt text](https://raw.githubusercontent.com/robertasdvarionas/Marketing-Analytics-EDA/refs/heads/main/Related%20Images/INCOME%20DISTRIBUTION%20BY%20MARITAL%20STATUS.png)
 
 It seems that there is no correlation between customers' marital status and their income (there is a slight spike in income in widowed customers but too small to be significant).
 
-![alt text](https://raw.githubusercontent.com/robertasdvarionas/Marketing-Analytics-EDA/refs/heads/main/Related%20Images/INCOME%20DISTRIBUTION%20BY%20MARITAL%20STATUS.png)
 
 
 * Distribution of Customer Education
 
-Vast majority of the customers posses a Graduate education level with Phd and Master's degrees coming in way behind. Only a tiny portion of the customer base has a Basic education level.
-
 ![alt text](https://raw.githubusercontent.com/robertasdvarionas/Marketing-Analytics-EDA/refs/heads/main/Related%20Images/DISTRIBUTION%20OF%20CUSTOMER%20EDUCATION.png)
 
+Vast majority of the customers posses a Graduate education level with Phd and Master's degrees coming in way behind. Only a tiny portion of the customer base has a Basic education level.
 
-2. PURCHASING INSIGHTS
 
 
-* Purchasing Type Distribution
+**2. PURCHASING INSIGHTS**
 
-On average the most popular way of shopping for customers is at the physical store with web purchases coming in second. Other channels are not performing quite as well.
+
+* **Purchasing Type Distribution**
 
 ![alt text](https://raw.githubusercontent.com/robertasdvarionas/Marketing-Analytics-EDA/refs/heads/main/Related%20Images/PURCHASING%20TYPE%20DISTRIBUTION.png)
 
+On average the most popular way of shopping for customers is at the physical store with web purchases coming in second. Other channels are not performing quite as well.
 
-* Distribution of Total Amount Spent
 
-Vast majority of the customers spend less than 200 when purchasing.
+
+* **Distribution of Total Amount Spent**
 
 ![alt text](https://raw.githubusercontent.com/robertasdvarionas/Marketing-Analytics-EDA/refs/heads/main/Related%20Images/DISTRIBUTION%20OF%20TOTAL%20AMOUNT%20SPENT.png)
 
+Vast majority of the customers spend less than 200 when purchasing.
 
-* Marketing Campaign Acceptance
 
-Latest campaign seems to be the most successful while Campaign 2 seems to be completely underperforming.
+
+* **Marketing Campaign Acceptance**
 
 ![alt text](https://raw.githubusercontent.com/robertasdvarionas/Marketing-Analytics-EDA/refs/heads/main/Related%20Images/MARKETING%20CAMPAIGN%20ACCEPTANCE.png)
 
+Latest campaign seems to be the most successful while Campaign 2 seems to be completely underperforming.
 
-* Relationship between Amount Spent on Various Products and Income
+
+
+* **Relationship between Amount Spent on Various Products and Income**
+
+![alt text](https://raw.githubusercontent.com/robertasdvarionas/Marketing-Analytics-EDA/refs/heads/main/Related%20Images/TOTAL%20VS%20INCOME.png)
+![alt text](https://raw.githubusercontent.com/robertasdvarionas/Marketing-Analytics-EDA/refs/heads/main/Related%20Images/Combined_Charts.jpg)
 
 From the Relationship between Total Amount Spent and Income we can see that generally customers with higher incomes will spend more money when purchasing.
 
@@ -251,6 +262,3 @@ The Relationship between Amount Spent on Gold and Income is a little more varied
 The rest of the relationships are following a similar progressive trend of spending more money the higher the income is with wine being the product most exclusive to higher earners it seems.
 
 A big outlier is one person spending a disproportionately big amount of money on meat while having almost no income.
-
-![alt text](https://raw.githubusercontent.com/robertasdvarionas/Marketing-Analytics-EDA/refs/heads/main/Related%20Images/TOTAL%20VS%20INCOME.png)
-![alt text](https://raw.githubusercontent.com/robertasdvarionas/Marketing-Analytics-EDA/refs/heads/main/Related%20Images/Combined_Charts.jpg)
