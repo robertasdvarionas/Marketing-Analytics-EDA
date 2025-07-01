@@ -262,3 +262,11 @@ The Relationship between Amount Spent on Gold and Income is a little more varied
 The rest of the relationships are following a similar progressive trend of spending more money the higher the income is with wine being the product most exclusive to higher earners it seems.
 
 A big outlier is one person spending a disproportionately big amount of money on meat while having almost no income.
+
+
+# CONCLUSION
+
+The final complete dashboard looks like this.
+
+![alt text](https://raw.githubusercontent.com/robertasdvarionas/Marketing-Analytics-EDA/refs/heads/main/Related%20Images/Marketing%20Exploratory%20Data%20Analysis_page-0001.jpg)
+![alt text](https://raw.githubusercontent.com/robertasdvarionas/Marketing-Analytics-EDA/refs/heads/main/Related%20Images/Marketing%20Exploratory%20Data%20Analysis_page-0002.jpg)
