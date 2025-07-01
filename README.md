@@ -176,9 +176,14 @@ ALTER TABLE marketing_stats DROP COLUMN AcceptedCmpOverall;
 
 # DATA VISUALIZATION AND INSIGHTS
 
-I imported the data into **Power BI** via SQL Server method and started building a dashboard highlighting the most important trends and insights.
+I imported the data into **Power BI** via SQL Server method and started building a dashboard highlighting the most important trends, findings and insights.
 
 I decided to split up the dashboard into two tabs - one focusing on the *customer insights* and the other one focusing on the *purchasing insights*.
 
-1. Customer insights
+1. CUSTOMER INSIGHTS
 
+* Distribution of Income
+
+The income is distributed pretty evenly with small spikes around 30,000 and 60,000 yearly.
+
+![alt text](https://raw.githubusercontent.com/robertasdvarionas/Marketing-Analytics-EDA/refs/heads/main/Related%20Images/DISTRIBUTION%20OF%20INCOME.png)
