@@ -146,7 +146,7 @@ SET Marital_Status = COALESCE(marital_Divorced,marital_Married,marital_Single,ma
 
 The resulting columns looked like this.
 
-![alt text]()
+![alt text](https://raw.githubusercontent.com/robertasdvarionas/Marketing-Analytics-EDA/refs/heads/main/Related%20Images/Education%20and%20Marital%20Status%20SQL.png)
 
 Continuing on, I wanted to have a column **'Total_Spent_Amount'** showing the amount spent on all of the products combined per customer. Hence, I created the new column and added the relevant columns to retrieve the total amount.
 
@@ -270,3 +270,21 @@ The final complete dashboard looks like this.
 
 ![alt text](https://raw.githubusercontent.com/robertasdvarionas/Marketing-Analytics-EDA/refs/heads/main/Related%20Images/Marketing%20Exploratory%20Data%20Analysis_page-0001.jpg)
 ![alt text](https://raw.githubusercontent.com/robertasdvarionas/Marketing-Analytics-EDA/refs/heads/main/Related%20Images/Marketing%20Exploratory%20Data%20Analysis_page-0002.jpg)
+
+In this project I have applied SQL to clean up the data and Power BI to create a dashboard in order to understand and visualise what trends and insights can be found from the dataset.
+
+From those insights we can conclude that:
+
+* The majority of the customers seem to fall somewhere between 40 and 65 years old.
+* Half of our customers have children at home.
+* Most customers have a higher education.
+* Vast majority of the customers spend less than 200 when purchasing.
+* The most popular way of shopping for customers is at the physical store.
+* Latest campaign seems to be the most successful while Campaign 2 seems to be completely underperforming.
+
+Using these findings the appropriate teams or departments in the company can:
+
+1. Allocate more resources to either focus the attention on the most common customer bases;
+2. To focus attention on unrepresented customer bases in order to boost revenue from them as untapped potential;
+3. Check why certain marketing campaigns are underperforming;
+4. Investigate the reasons why the physical store is the most popular way of shopping while Web, Catalog and Deals channels are falling behind.
