@@ -291,5 +291,6 @@ Using these findings the appropriate teams or departments in the company can:
 
 1. Allocate more resources to either focus the attention on the most common customer bases;
 2. To focus attention on unrepresented customer bases in order to boost revenue from them as untapped potential;
-3. Check why certain marketing campaigns are underperforming;
-4. Investigate the reasons why the physical store is the most popular way of shopping while Web, Catalog and Deals channels are falling behind.
+3. Focus on specific products groups to make them more appealing to lower income customers;
+4. Check why certain marketing campaigns are underperforming;
+5. Investigate the reasons why the physical store is the most popular way of shopping while Web, Catalog and Deals channels are falling behind.
