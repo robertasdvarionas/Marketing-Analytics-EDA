@@ -52,6 +52,8 @@ UPDATE marketing_stats
 SET Total_Children = Kidhome + Teenhome;
 ```
 
+![alt text](https://raw.githubusercontent.com/robertasdvarionas/Marketing-Analytics-EDA/refs/heads/main/Related%20Images/Total%20Children%20SQL.png)
+
 Furthermore, I noticed that the marital status columns and education columns were having a similar issue. They were all differentiated into separate columns, each column having a binary value of 1 or 0.
 
 Having just one column of **'Marital_Status'** and **'Education'** would be more convenient. Therefore, I:
@@ -158,6 +160,8 @@ ALTER TABLE marketing_stats ADD Total_Spent_Amount INT;
 UPDATE marketing_stats
 SET Total_Spent_Amount = MntWines + MntFruits + MntMeatProducts + MntFishProducts + MntSweetProducts + MntGoldProds;
 ```
+
+![alt text](https://raw.githubusercontent.com/robertasdvarionas/Marketing-Analytics-EDA/refs/heads/main/Related%20Images/Total%20Spent%20Amount%20SQL.png)
 
 Then I checked through all of the columns again and noticed that quite a few columns are either completely unusable, are showing incorrect entries or are simply redundant.
 
