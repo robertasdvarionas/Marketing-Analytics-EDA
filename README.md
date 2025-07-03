@@ -153,7 +153,8 @@ The resulting columns looked like this.
 Continuing on, I wanted to have a column **'Total_Spent_Amount'** showing the amount spent on all of the products combined per customer. Hence, I created the new column and added the relevant columns to retrieve the total amount.
 
 ```sql
-ALTER TABLE marketing_stats ADD Total_Spent_Amount INT;
+ALTER TABLE marketing_stats
+ADD Total_Spent_Amount INT;
 ```
 
 ```sql
