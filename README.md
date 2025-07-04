@@ -22,7 +22,7 @@ I do not own this dataset. I am simply making it accessible on this platform via
 
 ## DATA CLEANING AND PREPARATION
 
-Firstly, I created a new database titled *'marketing'* and imported the raw csv file into Microsoft SQL Server Management Studio as a flat file.
+Firstly, I created a new database titled *'marketing'* and imported the raw csv file into **Microsoft SQL Server Management Studio** as a flat file.
 
 The raw dataset looks like this.
 
