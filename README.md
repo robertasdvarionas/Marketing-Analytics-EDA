@@ -67,7 +67,7 @@ ADD
     Marital_Status varchar(50);
 ```
 
-2. Replaced the '1' values to their appropriate entry and '0' values to NULL.
+2. Replaced the '1' values to their appropriate entry and put the resulting values into one categorical column.
 
 
 ```sql
