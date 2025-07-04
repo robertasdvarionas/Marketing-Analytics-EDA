@@ -228,7 +228,7 @@ The final complete dashboard looks like this.
 ![alt text](https://raw.githubusercontent.com/robertasdvarionas/Marketing-Analytics-EDA/refs/heads/main/Related%20Images/Marketing%20Exploratory%20Data%20Analysis_page-0001.jpg)
 ![alt text](https://raw.githubusercontent.com/robertasdvarionas/Marketing-Analytics-EDA/refs/heads/main/Related%20Images/Marketing%20Exploratory%20Data%20Analysis_page-0002.jpg)
 
-In this project I have applied SQL to clean up the data and Power BI to create a dashboard in order to understand and visualise what trends and insights can be found from the dataset.
+In this project I have used **Microsoft SQL Server Management Studio** to clean up the data and **Power BI** to create a dashboard in order to understand and visualize what trends and insights can be found from the dataset.
 
 From those insights we can conclude that:
 
@@ -241,7 +241,7 @@ From those insights we can conclude that:
 
 Using these findings the appropriate teams or departments in the company can:
 
-1. Allocate more resources to either focus the attention on the most common customer bases;
+1. Allocate more resources to focus the attention on the most common customer bases;
 2. To focus attention on unrepresented customer bases in order to boost revenue from them as untapped potential;
 3. Focus on specific products groups to make them more appealing to lower income customers;
 4. Check why certain marketing campaigns are underperforming;
