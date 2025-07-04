@@ -135,7 +135,7 @@ DROP COLUMN
 
 I imported the data into **Power BI** via SQL Server method and started building a dashboard highlighting the most important trends, findings and insights.
 
-I decided to split up the dashboard into two tabs - one focusing on the *customer insights* and the other one focusing on the *purchasing insights*.
+I decided to split up the dashboard into two tabs - one focusing on the _**customer insights**_ and the other one focusing on the _**purchasing insights**_.
 
 **1. CUSTOMER INSIGHTS**
 
