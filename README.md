@@ -176,7 +176,7 @@ It seems that there is no correlation between customers' marital status and thei
 
 ![alt text](https://raw.githubusercontent.com/robertasdvarionas/Marketing-Analytics-EDA/refs/heads/main/Related%20Images/DISTRIBUTION%20OF%20CUSTOMER%20EDUCATION.png)
 
-Vast majority of the customers posses a Graduate education level with Phd and Master's degrees coming in way behind. Only a tiny portion of the customer base has a Basic education level.
+Vast majority of the customers possess a Graduate education level with Phd and Master's degrees coming in way behind. Only a tiny portion of the customer base has a Basic education level.
 
 
 
