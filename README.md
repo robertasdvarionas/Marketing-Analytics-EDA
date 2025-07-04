@@ -62,10 +62,9 @@ Having just one column of **'Marital_Status'** and **'Education'** would be more
 
 ```sql
 ALTER TABLE marketing_stats
-ADD Education varchar(50);
-
-ALTER TABLE marketing_stats
-ADD Marital_Status varchar(50);
+ADD 
+    Education varchar(50),
+    Marital_Status varchar(50);
 ```
 
 2. Replaced the '1' values to their appropriate entry and '0' values to NULL.
@@ -73,78 +72,29 @@ ADD Marital_Status varchar(50);
 
 ```sql
 UPDATE marketing_stats
-SET marital_Divorced = CASE
-							WHEN marital_Divorced = 1 THEN 'Divorced'
-							ELSE NULL
-							END;
-
-UPDATE marketing_stats
-SET marital_Married = CASE
-							WHEN marital_Married = 1 THEN 'Married'
-							ELSE NULL
-							END;
-
-UPDATE marketing_stats
-SET marital_Single = CASE
-							WHEN marital_Single = 1 THEN 'Single'
-							ELSE NULL
-							END;
-
-UPDATE marketing_stats
-SET marital_Together = CASE
-							WHEN marital_Together = 1 THEN 'Together'
-							ELSE NULL
-							END;
-
-UPDATE marketing_stats
-SET marital_Widow = CASE
-							WHEN marital_Widow = 1 THEN 'Widow'
-							ELSE NULL
-							END;
+SET Marital_Status = CASE
+    WHEN marital_Divorced = 1 THEN 'Divorced'
+    WHEN marital_Married = 1 THEN 'Married'
+    WHEN marital_Single = 1 THEN 'Single'
+    WHEN marital_Together = 1 THEN 'Together'
+    WHEN marital_Widow = 1 THEN 'Widow'
+    ELSE NULL
+END;
 ```
 
 
 ```sql
 UPDATE marketing_stats
-SET education_2n_Cycle = CASE
-							WHEN education_2n_Cycle = 1 THEN '2nd Cycle'
-							ELSE NULL
-							END;
-
-UPDATE marketing_stats
-SET education_basic = CASE
-							WHEN education_basic = 1 THEN 'Basic'
-							ELSE NULL
-							END;
-
-UPDATE marketing_stats
-SET education_Graduation = CASE
-							WHEN education_Graduation = 1 THEN 'Graduation'
-							ELSE NULL
-							END;
-
-UPDATE marketing_stats
-SET education_Master = CASE
-							WHEN education_Master = 1 THEN 'Master'
-							ELSE NULL
-							END;
-
-UPDATE marketing_stats
-SET education_PhD = CASE
-							WHEN education_PhD = 1 THEN 'PhD'
-							ELSE NULL
-							END;
+SET Education = CASE
+    WHEN education_2n_Cycle = 1 THEN '2nd Cycle'
+    WHEN education_basic = 1 THEN 'Basic'
+    WHEN education_Graduation = 1 THEN 'Graduation'
+    WHEN education_Master = 1 THEN 'Master'
+    WHEN education_PhD = 1 THEN 'PhD'
+    ELSE NULL
+END;
 ```
 
-3. Coalesced the columns into one.
-
-```sql
-UPDATE marketing_stats
-SET Education = COALESCE(education_2n_Cycle,education_basic,education_Graduation,education_Master,education_PhD);
-
-UPDATE marketing_stats
-SET Marital_Status = COALESCE(marital_Divorced,marital_Married,marital_Single,marital_Together,marital_Widow);
-```
 
 The resulting columns looked like this.
 
@@ -172,11 +122,13 @@ Then I checked through all of the columns again and noticed that quite a few col
 Majority of those columns will not be used in general, therefore, I chose to remove them from the dataset.
 
 ```sql
-ALTER TABLE marketing_stats DROP COLUMN Z_CostContact;
-ALTER TABLE marketing_stats DROP COLUMN Z_Revenue;
-ALTER TABLE marketing_stats DROP COLUMN MntTotal;
-ALTER TABLE marketing_stats DROP COLUMN MntRegularProds;
-ALTER TABLE marketing_stats DROP COLUMN AcceptedCmpOverall;
+ALTER TABLE marketing_stats
+DROP COLUMN 
+    Z_CostContact,
+    Z_Revenue,
+    MntTotal,
+    MntRegularProds,
+    AcceptedCmpOverall;
 ```
 
 # DATA VISUALIZATION AND INSIGHTS
